@@ -1,0 +1,56 @@
+{
+  "gender": "male",
+  "name": {
+    "title": "Mr",
+    "first": "Burkhard",
+    "last": "Stender"
+  },
+  "location": {
+    "street": {
+      "number": 7397,
+      "name": "Im Winkel"
+    },
+    "city": "Würzburg",
+    "state": "Bremen",
+    "country": "Germany",
+    "postcode": 56555,
+    "coordinates": {
+      "latitude": "-46.1402",
+      "longitude": "-57.2733"
+    },
+    "timezone": {
+      "offset": "-2:00",
+      "description": "Mid-Atlantic"
+    }
+  },
+  "email": "burkhard.stender@example.com",
+  "login": {
+    "uuid": "2d6b6f48-0847-405e-b49f-b7e1c77f7934",
+    "username": "purplewolf768",
+    "password": "copper",
+    "salt": "aHrEcw5E",
+    "md5": "b4dc6e5c44bd53b3ee02e8d185e4d260",
+    "sha1": "0a20425d448a359d31f2d23131ff134e8313068b",
+    "sha256": "06aa82684c59c7d65dc6102eeb34a4e70430914a2d22e57a5ab8d179baf89407"
+  },
+  "dob": {
+    "date": "1969-01-18T17:41:31.040Z",
+    "age": 52
+  },
+  "registered": {
+    "date": "2017-09-03T09:00:20.682Z",
+    "age": 4
+  },
+  "phone": "0744-9461303",
+  "cell": "0172-6768701",
+  "id": {
+    "name": "",
+    "value": null
+  },
+  "picture": {
+    "large": "https://randomuser.me/api/portraits/men/7.jpg",
+    "medium": "https://randomuser.me/api/portraits/med/men/7.jpg",
+    "thumbnail": "https://randomuser.me/api/portraits/thumb/men/7.jpg"
+  },
+  "nat": "DE"
+}
