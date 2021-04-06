@@ -1,6 +1,6 @@
 dependencies:
   '@nuxtjs/axios': 5.13.1
-  '@nuxtjs/composition-api': 0.22.4_nuxt@2.15.4
+  '@nuxtjs/composition-api': 0.22.1_nuxt@2.15.4
   nuxt: 2.15.4
 devDependencies:
   '@babel/eslint-parser': 7.13.14_eslint@7.23.0
@@ -1588,7 +1588,7 @@ packages:
     dev: false
     resolution:
       integrity: sha512-vZpXV2AAkQ5Duejubt1k3ZgUnYowYnPvmcUt0hskd+OebmQ+jF6Wk6rOG0/9EeknOxm7mtTGgKSwdlE1jDo+xA==
-  /@nuxtjs/composition-api/0.22.4_nuxt@2.15.4:
+  /@nuxtjs/composition-api/0.22.1_nuxt@2.15.4:
     dependencies:
       '@vue/composition-api': 1.0.0-rc.5
       defu: 3.2.2
@@ -1604,7 +1604,7 @@ packages:
       nuxt: ^2.15
       vue: ^2
     resolution:
-      integrity: sha512-JJwcyhVMCxjClogQjteFJ5hN+FeR0oLkzaBATpikV34woZ9/gzUuIxPzvOzq2hmjYty5qNGqZM+B3668R8Jwvw==
+      integrity: sha512-47yAd9GCj2K7OLmM/U03LkldNyXU0zGEjgUrIodD/2vMZArGjFsPoRns6K4oIvvUKeia8MXzjEMYxAsSm5IFlw==
   /@nuxtjs/eslint-config-typescript/6.0.0_eslint@7.23.0:
     dependencies:
       '@nuxtjs/eslint-config': 6.0.0_948f4842c3d45a34863b926a49d26876
@@ -11174,7 +11174,7 @@ specifiers:
   '@nuxt/types': 2.15.4
   '@nuxt/typescript-build': 2.1.0
   '@nuxtjs/axios': 5.13.1
-  '@nuxtjs/composition-api': 0.22.4
+  '@nuxtjs/composition-api': 0.22.1
   '@nuxtjs/eslint-config-typescript': 6.0.0
   '@nuxtjs/eslint-module': 3.0.2
   '@nuxtjs/stylelint-module': 4.0.0
