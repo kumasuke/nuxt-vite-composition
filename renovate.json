@@ -9,7 +9,9 @@
   "labels": [
     "renovate"
   ],
-  "ignoreDeps": "@nuxtjs/composition-api",
+  "ignoreDeps": [
+    "@nuxtjs/composition-api"
+  ],
   "packageRules": [
     {
       "matchUpdateTypes": [
