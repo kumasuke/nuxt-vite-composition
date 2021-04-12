@@ -12,14 +12,15 @@
   "ignoreDeps": [
     "@nuxtjs/composition-api"
   ],
-  "packageRules": [
-    {
-      "matchUpdateTypes": [
-        "minor",
-        "patch"
-      ],
-      "matchCurrentVersion": "!/^0/",
-      "automerge": true
-    }
-  ]
+  "minor": {
+    "groupName": "minor all dependencies ",
+    "automerge": true
+  },
+  "patch": {
+    "groupName": "patch all dependencies ",
+    "automerge": true
+  },
+  "lockFileMaintenance": {
+    "enabled": true
+  }
 }
