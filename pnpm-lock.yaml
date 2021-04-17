@@ -11,14 +11,14 @@ specifiers:
   '@nuxtjs/stylelint-module': 4.0.0
   '@vue/composition-api': 1.0.0-rc.6
   eslint: 7.24.0
-  eslint-config-prettier: 8.1.0
+  eslint-config-prettier: 8.2.0
   eslint-plugin-nuxt: 2.0.0
-  eslint-plugin-prettier: 3.3.1
+  eslint-plugin-prettier: 3.4.0
   nuxt: 2.15.4
   nuxt-vite: 0.0.36
   nuxt-windicss: 0.5.4
   prettier: 2.2.1
-  sass: 1.32.8
+  sass: 1.32.10
   stylelint: 13.12.0
   vuex-module-decorators: 1.0.1
 
@@ -29,20 +29,20 @@ dependencies:
 
 devDependencies:
   '@babel/eslint-parser': 7.13.14_eslint@7.24.0
-  '@nuxt/types': 2.15.4_sass@1.32.8
+  '@nuxt/types': 2.15.4_sass@1.32.10
   '@nuxt/typescript-build': 2.1.0_@nuxt+types@2.15.4
   '@nuxtjs/eslint-config-typescript': 6.0.0_eslint@7.24.0
   '@nuxtjs/eslint-module': 3.0.2_eslint@7.24.0
   '@nuxtjs/stylelint-module': 4.0.0_stylelint@13.12.0
   '@vue/composition-api': 1.0.0-rc.6
   eslint: 7.24.0
-  eslint-config-prettier: 8.1.0_eslint@7.24.0
+  eslint-config-prettier: 8.2.0_eslint@7.24.0
   eslint-plugin-nuxt: 2.0.0_eslint@7.24.0
-  eslint-plugin-prettier: 3.3.1_b9c73a8f62f15c88eece82c557486b0e
+  eslint-plugin-prettier: 3.4.0_64fa1aa96df95a5df14fce32631d8e89
   nuxt-vite: 0.0.36
   nuxt-windicss: 0.5.4
   prettier: 2.2.1
-  sass: 1.32.8
+  sass: 1.32.10
   stylelint: 13.12.0
   vuex-module-decorators: 1.0.1
 
@@ -1523,7 +1523,7 @@ packages:
       std-env: 2.3.0
     dev: false
 
-  /@nuxt/types/2.15.4_sass@1.32.8:
+  /@nuxt/types/2.15.4_sass@1.32.10:
     resolution: {integrity: sha512-caDwN0mFIBd5E3y9Gtgb8nAfg+Uqz2QlLKW1qHwLP546A97lC3jIdGlRGoiEUblIxXjEOOBYJ/G5sUBWThXZLQ==}
     dependencies:
       '@types/autoprefixer': 9.7.2
@@ -1543,7 +1543,7 @@ packages:
       '@types/webpack-bundle-analyzer': 3.9.2
       '@types/webpack-dev-middleware': 4.1.2
       '@types/webpack-hot-middleware': 2.25.4
-      sass-loader: 10.1.1_sass@1.32.8
+      sass-loader: 10.1.1_sass@1.32.10
     transitivePeerDependencies:
       - fibers
       - node-sass
@@ -1556,7 +1556,7 @@ packages:
     peerDependencies:
       '@nuxt/types': '>=2.13.1'
     dependencies:
-      '@nuxt/types': 2.15.4_sass@1.32.8
+      '@nuxt/types': 2.15.4_sass@1.32.10
       consola: 2.15.3
       fork-ts-checker-webpack-plugin: 6.1.1
       ts-loader: 8.0.18_typescript@4.2.3
@@ -4703,8 +4703,8 @@ packages:
     resolution: {integrity: sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=}
     engines: {node: '>=0.8.0'}
 
-  /eslint-config-prettier/8.1.0_eslint@7.24.0:
-    resolution: {integrity: sha512-oKMhGv3ihGbCIimCAjqkdzx2Q+jthoqnXSP+d86M9tptwugycmTFdVR4IpLgq2c4SHifbwO90z2fQ8/Aio73yw==}
+  /eslint-config-prettier/8.2.0_eslint@7.24.0:
+    resolution: {integrity: sha512-dWV9EVeSo2qodOPi1iBYU/x6F6diHv8uujxbxr77xExs3zTAlNXvVZKiyLsQGNz7yPV2K49JY5WjPzNIuDc2Bw==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
@@ -4818,8 +4818,8 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-prettier/3.3.1_b9c73a8f62f15c88eece82c557486b0e:
-    resolution: {integrity: sha512-Rq3jkcFY8RYeQLgk2cCwuc0P7SEFwDravPhsJZOQ5N4YI4DSg50NyqJ/9gdZHzQlHf8MvafSesbNJCcP/FF6pQ==}
+  /eslint-plugin-prettier/3.4.0_64fa1aa96df95a5df14fce32631d8e89:
+    resolution: {integrity: sha512-UDK6rJT6INSfcOo545jiaOwB701uAIt2/dR7WnFQoGCVl1/EMqdANBmwUaqqQ45aXprsTGzSa39LI1PyuRBxxw==}
     engines: {node: '>=6.0.0'}
     peerDependencies:
       eslint: '>=5.0.0'
@@ -4830,7 +4830,7 @@ packages:
         optional: true
     dependencies:
       eslint: 7.24.0
-      eslint-config-prettier: 8.1.0_eslint@7.24.0
+      eslint-config-prettier: 8.2.0_eslint@7.24.0
       prettier: 2.2.1
       prettier-linter-helpers: 1.0.0
     dev: true
@@ -8971,7 +8971,7 @@ packages:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
     dev: false
 
-  /sass-loader/10.1.1_sass@1.32.8:
+  /sass-loader/10.1.1_sass@1.32.10:
     resolution: {integrity: sha512-W6gVDXAd5hR/WHsPicvZdjAWHBcEJ44UahgxcIE196fW2ong0ZHMPO1kZuI5q0VlvMQZh32gpv69PLWQm70qrw==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
@@ -8990,13 +8990,13 @@ packages:
       klona: 2.0.4
       loader-utils: 2.0.0
       neo-async: 2.6.2
-      sass: 1.32.8
+      sass: 1.32.10
       schema-utils: 3.0.0
       semver: 7.3.5
     dev: true
 
-  /sass/1.32.8:
-    resolution: {integrity: sha512-Sl6mIeGpzjIUZqvKnKETfMf0iDAswD9TNlv13A7aAF3XZlRPMq4VvJWBC2N2DXbp94MQVdNSFG6LfF/iOXrPHQ==}
+  /sass/1.32.10:
+    resolution: {integrity: sha512-Nx0pcWoonAkn7CRp0aE/hket1UP97GiR1IFw3kcjV3pnenhWgZEWUf0ZcfPOV2fK52fnOcK3JdC/YYZ9E47DTQ==}
     engines: {node: '>=8.9.0'}
     hasBin: true
     dependencies:
