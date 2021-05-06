@@ -16,10 +16,10 @@ specifiers:
   eslint-plugin-prettier: 3.4.0
   nuxt: 2.15.4
   nuxt-vite: 0.0.37
-  nuxt-windicss: 0.5.4
+  nuxt-windicss: 0.7.1
   prettier: 2.2.1
   sass: 1.32.12
-  stylelint: 13.13.0
+  stylelint: 13.13.1
   vuex-module-decorators: 1.0.1
 
 dependencies:
@@ -33,17 +33,17 @@ devDependencies:
   '@nuxt/typescript-build': 2.1.0_@nuxt+types@2.15.4
   '@nuxtjs/eslint-config-typescript': 6.0.0_eslint@7.25.0
   '@nuxtjs/eslint-module': 3.0.2_eslint@7.25.0
-  '@nuxtjs/stylelint-module': 4.0.0_stylelint@13.13.0
+  '@nuxtjs/stylelint-module': 4.0.0_stylelint@13.13.1
   '@vue/composition-api': 1.0.0-rc.8
   eslint: 7.25.0
   eslint-config-prettier: 8.3.0_eslint@7.25.0
   eslint-plugin-nuxt: 2.0.0_eslint@7.25.0
   eslint-plugin-prettier: 3.4.0_ed07edc0d33fb90bb2bebf56b9b5e0f9
   nuxt-vite: 0.0.37
-  nuxt-windicss: 0.5.4
+  nuxt-windicss: 0.7.1
   prettier: 2.2.1
   sass: 1.32.12
-  stylelint: 13.13.0
+  stylelint: 13.13.1
   vuex-module-decorators: 1.0.1
 
 packages:
@@ -1720,14 +1720,14 @@ packages:
     transitivePeerDependencies:
       - debug
 
-  /@nuxtjs/stylelint-module/4.0.0_stylelint@13.13.0:
+  /@nuxtjs/stylelint-module/4.0.0_stylelint@13.13.1:
     resolution: {integrity: sha512-yNVCpbZQH07wr7nOoTdb7dNHSA2PUw/Y9Pw2rOQ3Dp2FSDh6/+o56Pojwnxf/xBON9EUBiCrglTMMO3mWd7YQA==}
     peerDependencies:
       stylelint: ^13.0.0
     dependencies:
       consola: 2.15.3
-      stylelint: 13.13.0
-      stylelint-webpack-plugin: 2.1.1_stylelint@13.13.0
+      stylelint: 13.13.1
+      stylelint-webpack-plugin: 2.1.1_stylelint@13.13.1
     transitivePeerDependencies:
       - webpack
     dev: true
@@ -2402,16 +2402,16 @@ packages:
       '@xtuc/long': 4.2.2
     dev: false
 
-  /@windicss/plugin-utils/0.12.5:
-    resolution: {integrity: sha512-4ux2o4s6D/gRTD68os41oxs/0NFk/eSJxHhZL9nN2wy4RGt+pPMQJyOHV56l7zDh9B0ywU5+ZRxDjdw2cl5Yvg==}
+  /@windicss/plugin-utils/0.15.10:
+    resolution: {integrity: sha512-xhC/d2oqjN1XEjXzG1+8YLOXiktIq3kPXOH3Rv0XOGdmN27XV7eur5g/yXE0fQ8xGrrzOijUb3qAItTgCO1hFA==}
     dependencies:
       debug: 4.3.2
       fast-glob: 3.2.5
       magic-string: 0.25.7
-      micromatch: 4.0.2
+      micromatch: 4.0.4
       pirates: 4.0.1
-      sucrase: 3.17.1
-      windicss: 2.5.12
+      sucrase: 3.18.1
+      windicss: 2.5.14
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3576,6 +3576,14 @@ packages:
       ansi-styles: 4.3.0
       supports-color: 7.2.0
 
+  /chalk/4.1.1:
+    resolution: {integrity: sha512-diHzdDKxcU+bAsUboHLPEDQiw0qEe0qd7SYUn3HgcFlWgbDcfLGswOHYeGrHKzG9z6UYf01d9VFMfZxPM1xZSg==}
+    engines: {node: '>=10'}
+    dependencies:
+      ansi-styles: 4.3.0
+      supports-color: 7.2.0
+    dev: true
+
   /character-entities-legacy/1.1.4:
     resolution: {integrity: sha512-3Xnr+7ZFS1uxeiUDvV02wQ+QDbc55o97tIV5zHScSPJpcLm/r0DFPcoY3tYRp+VZukxuMeKgXYmsXQHO05zQeA==}
     dev: true
@@ -4290,6 +4298,10 @@ packages:
 
   /defu/3.2.2:
     resolution: {integrity: sha512-8UWj5lNv7HD+kB0e9w77Z7TdQlbUYDVWqITLHNqFIn6khrNHv5WQo38Dcm1f6HeNyZf0U7UbPf6WeZDSdCzGDQ==}
+
+  /defu/4.0.1:
+    resolution: {integrity: sha512-lC+G0KvvWRbisQa50+iFelm3/eMmwo4IlBmfASOVlw9MZpHHyQeVsZxc5j23+TQy5ydgEoTVSrWl7ptou1kzJQ==}
+    dev: true
 
   /depd/1.1.2:
     resolution: {integrity: sha1-m81S4UwJd2PnSbJ0xDRu0uVgtak=}
@@ -6447,7 +6459,7 @@ packages:
     resolution: {integrity: sha512-8XPvpAA8uyhfteu8pIvQxpJZ7SYYdpUivZpGy6sFsBuKRY/7rQGavedeB8aK+Zkyq6upMFVL/9AW6vOYzfRyLg==}
     engines: {node: '>=10'}
     dependencies:
-      chalk: 4.1.0
+      chalk: 4.1.1
       is-unicode-supported: 0.1.0
     dev: true
 
@@ -7093,16 +7105,16 @@ packages:
       - supports-color
     dev: true
 
-  /nuxt-windicss/0.5.4:
-    resolution: {integrity: sha512-I21jFQUfjrGKpfWOZmguCvjf6/be93gsqRUGvhys+IfaPKhmnFaua8lYPBUYOv3E5RFQV082kWL3UTLwFPBnEA==}
+  /nuxt-windicss/0.7.1:
+    resolution: {integrity: sha512-afGKiFtqhdYRLQfxLCcVaPASslVreOPHrxxYCTzLdzZ4dbx9d02TVSUG4zUjSpn0ZhtVd6mAIiuYfWuz3FdS1Q==}
     dependencies:
       clear-module: 4.1.1
-      defu: 3.2.2
+      defu: 4.0.1
       rimraf: 3.0.2
       semver: 7.3.5
       upath: 2.0.1
-      vite-plugin-windicss: 0.12.5
-      windicss-webpack-plugin: 0.3.3
+      vite-plugin-windicss: 0.15.10
+      windicss-webpack-plugin: 0.5.0
     transitivePeerDependencies:
       - supports-color
       - vite
@@ -9408,7 +9420,7 @@ packages:
       postcss-selector-parser: 3.1.2
     dev: false
 
-  /stylelint-webpack-plugin/2.1.1_stylelint@13.13.0:
+  /stylelint-webpack-plugin/2.1.1_stylelint@13.13.1:
     resolution: {integrity: sha512-WHdaWCp4NANcTcltuRjZCjM7jVhdaSg7ag/sQLE22Bf84g5nQC4nBBK8FBdHAssJsho0fDRiwyrzGsIPO+b94A==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
@@ -9418,11 +9430,11 @@ packages:
       arrify: 2.0.1
       micromatch: 4.0.2
       schema-utils: 3.0.0
-      stylelint: 13.13.0
+      stylelint: 13.13.1
     dev: true
 
-  /stylelint/13.13.0:
-    resolution: {integrity: sha512-jvkM1iuH88vAvjdKPwPm6abiMP2/D/1chbfb+4GVONddOOskHuCXc0loyrLdxO1AwwH6jdnjYskkTKHQD7cXwQ==}
+  /stylelint/13.13.1:
+    resolution: {integrity: sha512-Mv+BQr5XTUrKqAXmpqm6Ddli6Ief+AiPZkRsIrAoUKFuq/ElkUh9ZMYxXD0iQNZ5ADghZKLOWz1h7hTClB7zgQ==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dependencies:
@@ -9430,7 +9442,7 @@ packages:
       '@stylelint/postcss-markdown': 0.36.2_4fe96148bf77e6cee792ae366c9083f9
       autoprefixer: 9.8.6
       balanced-match: 2.0.0
-      chalk: 4.1.0
+      chalk: 4.1.1
       cosmiconfig: 7.0.0
       debug: 4.3.1
       execall: 2.0.0
@@ -9478,8 +9490,8 @@ packages:
       - supports-color
     dev: true
 
-  /sucrase/3.17.1:
-    resolution: {integrity: sha512-04cNLFAhS4NBG2Z/MTkLY6HdoBsqErv3wCncymFlfFtnpMthurlWYML2RlID4M2BbiJSu1eZdQnE8Lcz4PCe2g==}
+  /sucrase/3.18.1:
+    resolution: {integrity: sha512-TRyO38wwOPhLLlM8QLOG3TgMj0FKk+arlTrS9pRAanF8cAcHvgRPKIYWGO25mPSp/Rj87zMMTjFfkqIZGI6ZdA==}
     engines: {node: '>=8'}
     hasBin: true
     dependencies:
@@ -10172,15 +10184,15 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-windicss/0.12.5:
-    resolution: {integrity: sha512-M/eEA+x94kxZNpEEkJLdY7M6Lp3WFhN0Kb/a2zhdPxBviMwaHSA5A7fUqN1xTYMxlQe4xM7D7naxL7EpnSNlmg==}
+  /vite-plugin-windicss/0.15.10:
+    resolution: {integrity: sha512-6thupz/vOt6XTIHZGRd8vVwjmC+8/FNgdhZGfyp2gnkPxC4SKUa4wZFpLBhirw+ApP8vdm9oVpe2liBZdQIwIg==}
     peerDependencies:
       vite: ^2.0.1
     dependencies:
-      '@windicss/plugin-utils': 0.12.5
-      chalk: 4.1.0
+      '@windicss/plugin-utils': 0.15.10
+      chalk: 4.1.1
       debug: 4.3.2
-      windicss: 2.5.12
+      windicss: 2.5.14
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -10479,22 +10491,22 @@ packages:
       string-width: 4.2.2
     dev: false
 
-  /windicss-webpack-plugin/0.3.3:
-    resolution: {integrity: sha512-XtV7cprqmWEglN6B3ALp09aGFIETnG3G3t762SROVbEgLsBq2Om8sB0MlCvdfBvq0jpIj/hPllApMSq5iVNcXg==}
+  /windicss-webpack-plugin/0.5.0:
+    resolution: {integrity: sha512-drmiLe0wd4VTTv2owIHxyjna8YjrrZWrD74m6MZQj9lwgM5baMa6taKkSm8sIlWvhHMqW9+Ai8lK7MdGcb9xyg==}
     dependencies:
-      '@windicss/plugin-utils': 0.12.5
+      '@windicss/plugin-utils': 0.15.10
       debug: 4.3.1
       loader-utils: 2.0.0
       magic-string: 0.25.7
       upath: 2.0.1
       webpack-virtual-modules: 0.4.2
-      windicss: 2.5.12
+      windicss: 2.5.14
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /windicss/2.5.12:
-    resolution: {integrity: sha512-BZ0Ps1C0RlCHBVOPcw/DAReeR9o/mKaoFgkBsVphQ23M5nsvVfVXgGlNJZssjAQsXnlDpj97pnIhtDn1ENBjXw==}
+  /windicss/2.5.14:
+    resolution: {integrity: sha512-8Lm7U1M5AzJPbiaVSVz7qWdETRzlkv//5LBMICBBAojos1jo09lUGhNZ5rBzHeldB9JmqYMDOGgrrXHExu0EAg==}
     engines: {node: '>= 12'}
     hasBin: true
     dev: true

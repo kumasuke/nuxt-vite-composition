@@ -28,10 +28,10 @@
     "eslint-plugin-nuxt": "2.0.0",
     "eslint-plugin-prettier": "3.4.0",
     "nuxt-vite": "0.0.37",
-    "nuxt-windicss": "0.5.4",
+    "nuxt-windicss": "0.7.1",
     "prettier": "2.2.1",
     "sass": "1.32.12",
-    "stylelint": "13.13.0",
+    "stylelint": "13.13.1",
     "vuex-module-decorators": "1.0.1"
   }
 }
