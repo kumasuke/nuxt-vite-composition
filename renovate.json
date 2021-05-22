@@ -9,9 +9,6 @@
   "labels": [
     "renovate"
   ],
-  "ignoreDeps": [
-    "@nuxtjs/composition-api"
-  ],
   "minor": {
     "groupName": "minor all dependencies ",
     "automerge": true

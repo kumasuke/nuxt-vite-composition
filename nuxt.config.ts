@@ -1,5 +1,5 @@
 import { NuxtConfig } from '@nuxt/types'
-import { defineNuxtConfig } from '@nuxtjs/composition-api'
+import { defineNuxtConfig } from './src/utils/nuxt-helper'
 
 const nuxtConfig: NuxtConfig = {
   target: 'static',
@@ -45,7 +45,7 @@ const nuxtConfig: NuxtConfig = {
     // Doc: https://github.com/windicss/nuxt-windicss-module
     'nuxt-windicss',
     // Doc: https://composition-api.nuxtjs.org/
-    '@nuxtjs/composition-api',
+    '@nuxtjs/composition-api/module',
   ],
   /**
    * Generate
