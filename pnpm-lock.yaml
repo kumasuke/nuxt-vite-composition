@@ -4,12 +4,12 @@ specifiers:
   '@babel/eslint-parser': 7.14.3
   '@nuxt/types': 2.15.6
   '@nuxt/typescript-build': 2.1.0
-  '@nuxtjs/axios': 5.13.3
+  '@nuxtjs/axios': 5.13.4
   '@nuxtjs/composition-api': 0.22.1
   '@nuxtjs/eslint-config-typescript': 6.0.0
   '@nuxtjs/eslint-module': 3.0.2
   '@nuxtjs/stylelint-module': 4.0.0
-  '@vue/composition-api': 1.0.0-rc.8
+  '@vue/composition-api': 1.0.0-rc.9
   eslint: 7.27.0
   eslint-config-prettier: 8.3.0
   eslint-plugin-nuxt: 2.0.0
@@ -23,7 +23,7 @@ specifiers:
   vuex-module-decorators: 1.0.1
 
 dependencies:
-  '@nuxtjs/axios': 5.13.3
+  '@nuxtjs/axios': 5.13.4
   '@nuxtjs/composition-api': 0.22.1_nuxt@2.15.6
   nuxt: 2.15.6
 
@@ -34,7 +34,7 @@ devDependencies:
   '@nuxtjs/eslint-config-typescript': 6.0.0_eslint@7.27.0
   '@nuxtjs/eslint-module': 3.0.2_eslint@7.27.0
   '@nuxtjs/stylelint-module': 4.0.0_stylelint@13.13.1
-  '@vue/composition-api': 1.0.0-rc.8
+  '@vue/composition-api': 1.0.0-rc.9
   eslint: 7.27.0
   eslint-config-prettier: 8.3.0_eslint@7.27.0
   eslint-plugin-nuxt: 2.0.0_eslint@7.27.0
@@ -1794,8 +1794,8 @@ packages:
       - webpack-command
     dev: false
 
-  /@nuxtjs/axios/5.13.3:
-    resolution: {integrity: sha512-GPniq90B6RN9Hh6cy7nqL0jse3LNlpdYB8A0tRu0O2mJj+5ReI8IoFfYLCU5hESG/nK/OKE2/uhnUmNvBlNt8A==}
+  /@nuxtjs/axios/5.13.4:
+    resolution: {integrity: sha512-RLDctJLm2erJhwKnnmII6vDmH4BLZ6mca/ndFJyamPlB9uzIVNyat2Dw+FYlJSJIDI1Mfp3NntipUiSGUqrXiw==}
     dependencies:
       '@nuxtjs/proxy': 2.1.0
       axios: 0.21.1
@@ -2428,8 +2428,8 @@ packages:
       tslib: 2.1.0
     dev: false
 
-  /@vue/composition-api/1.0.0-rc.8:
-    resolution: {integrity: sha512-9ZW2+2WW7iNywVFeaz9K18DW/aA4MLncz+FiUpjtMUKzHpiN1GtYQ8rRYOhHfGXD2Hmp4tTFjqaTM4WeAbB1ig==}
+  /@vue/composition-api/1.0.0-rc.9:
+    resolution: {integrity: sha512-U//BqmGRVaPyZbYsPfRlmCKnnFkhRzUBu7cjrWn4PSwQ5Oh+M0KcYIHlupUd+Qmd8KwaiYiuUpJLncl3wFsrdg==}
     peerDependencies:
       vue: '>= 2.5 < 3'
     dependencies:
