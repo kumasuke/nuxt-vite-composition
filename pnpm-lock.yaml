@@ -15,7 +15,7 @@ specifiers:
   eslint-plugin-prettier: 3.4.0
   nuxt: 2.15.6
   nuxt-vite: 0.1.0
-  nuxt-windicss: 0.7.4
+  nuxt-windicss: 0.7.5
   prettier: 2.3.0
   sass: 1.34.0
   stylelint: 13.13.1
@@ -38,7 +38,7 @@ devDependencies:
   eslint-plugin-nuxt: 2.0.0_eslint@7.27.0
   eslint-plugin-prettier: 3.4.0_beb8ddd1fba5378f74976112c7860a07
   nuxt-vite: 0.1.0
-  nuxt-windicss: 0.7.4
+  nuxt-windicss: 0.7.5
   prettier: 2.3.0
   sass: 1.34.0
   stylelint: 13.13.1
@@ -7330,8 +7330,8 @@ packages:
       - supports-color
     dev: true
 
-  /nuxt-windicss/0.7.4:
-    resolution: {integrity: sha512-1dZBQyeR15Gpv7QrnDzssbW+abiXAhfPKr7iGWdMLfn4vCf4IyaZi8i38CGf85MwrHDDXuogQIC0k0lfuVwoAQ==}
+  /nuxt-windicss/0.7.5:
+    resolution: {integrity: sha512-RCDdNnmMZK+v2cU3I+gu99dNq8Ny9DPN6SCwbC552llitFH0ZVD867XQLrqaWVuKk7CLsRXBh1m9y9C1lHG9Hw==}
     dependencies:
       clear-module: 4.1.1
       defu: 4.0.1
