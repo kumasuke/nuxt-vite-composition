@@ -27,7 +27,7 @@
     "eslint-plugin-nuxt": "2.0.0",
     "eslint-plugin-prettier": "3.4.0",
     "nuxt-vite": "0.1.1",
-    "nuxt-windicss": "0.8.2",
+    "nuxt-windicss": "1.2.1",
     "prettier": "2.3.0",
     "sass": "1.34.0",
     "stylelint": "13.13.1",
