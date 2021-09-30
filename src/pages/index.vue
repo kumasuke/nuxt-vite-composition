@@ -25,9 +25,7 @@ export default defineComponent({
 </script>
 
 <template>
-  <div
-    class="text-center items-center justify-center flex mx-auto my-0 min-h-screen"
-  >
+  <div class="text-center items-center justify-center flex mx-auto my-0 min-h-screen">
     <div>
       <logo />
       <h1 class="title">nuxt-vite</h1>
@@ -36,11 +34,7 @@ export default defineComponent({
         <a href="https://nuxtjs.org/" target="_blank" class="button--green">
           Documentation
         </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
+        <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">
           GitHub
         </a>
       </div>
