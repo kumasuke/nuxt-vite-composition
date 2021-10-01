@@ -5,6 +5,7 @@ const nuxtConfig: NuxtConfig = {
   target: 'static',
   ssr: true,
   srcDir: './src',
+  telemetry: false,
   /*
    ** Headers of the page
    */
