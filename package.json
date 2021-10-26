@@ -30,7 +30,7 @@
     "nuxt-windicss": "1.2.4",
     "prettier": "2.4.1",
     "sass": "1.42.1",
-    "stylelint": "13.13.1",
+    "stylelint": "14.0.1",
     "vuex-module-decorators": "1.0.1"
   }
 }
