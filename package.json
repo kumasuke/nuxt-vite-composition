@@ -24,7 +24,7 @@
     "@nuxtjs/stylelint-module": "4.0.0",
     "eslint": "7.32.0",
     "eslint-config-prettier": "8.3.0",
-    "eslint-plugin-nuxt": "2.0.0",
+    "eslint-plugin-nuxt": "3.0.0",
     "eslint-plugin-prettier": "4.0.0",
     "nuxt-vite": "0.2.4",
     "nuxt-windicss": "1.2.4",
