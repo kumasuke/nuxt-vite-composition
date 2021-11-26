@@ -31,6 +31,6 @@
     "prettier": "2.4.1",
     "sass": "1.43.4",
     "stylelint": "14.0.1",
-    "vuex-module-decorators": "1.0.1"
+    "vuex-module-decorators": "2.0.0"
   }
 }
