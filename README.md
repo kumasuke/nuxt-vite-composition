@@ -33,3 +33,7 @@ $ pnpm generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+## TODO
+nuxt-vite@0.3.X
+[Cannot find module 'lib/axios'](https://github.com/nuxt/vite/issues/221)
